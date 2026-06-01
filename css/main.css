@@ -1,0 +1,82 @@
+body { font-family: Arial, sans-serif; padding: 20px; }
+h1
+{
+font-weight: 600;
+font-size: 42px;
+line-height: 50px;
+color: #33333b;
+text-align: center;
+}
+h2
+{
+max-width: 790px;
+margin: 10px auto 0;
+line-height: 30px;
+font-size: 22px;
+font-weight: 400;
+color: #47474f;
+text-align:center;
+}
+button
+{
+padding: 20px 48px;
+margin: 40px auto;
+font-weight: 500;
+font-size: 24px;
+background: #e5322d;
+line-height: 28px;
+color: #fff !important;
+text-decoration: none;
+border: 0;
+font-weight:bold;
+border-radius: 12px;
+text-align:center;
+display:block;
+cursor: pointer;
+}
+button:hover
+{
+background-color:#bd060a;
+transform: translateY(-2px)
+}
+::file-selector-button {
+background: #e5322d;
+color: #fff !important;
+border: 0;
+font-size: 15px;	
+font-weight:bold;
+border-radius: 8px;
+font-weight: 500;
+padding: 5px 10px;
+}
+::file-selector-button:hover
+{
+background-color:#bd060a;
+}
+#pdfFile
+{
+margin: 20px auto 5px auto;
+color:grey;
+text-align:center;
+display:block;
+border-bottom:1px dotted grey;
+}
+div#range
+{
+color: #47474f;
+text-align:center;
+margin: 0px 0px 0px 0px;
+}
+div#range input
+{
+color: #e5322d;
+outline-color: #e5322d;
+}
+#output
+{
+font-weight: 600;
+font-size: 20px;
+line-height: 50px;
+color: #33333b;
+text-align: center;
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Word ID Generator</title>
+<script src="script/jszip.min.js"></script>
+<script src="script/id.js"></script>
+<link rel="stylesheet" type="text/css" href="./css/main1.css" />
+</head>
+<body>
+<h1>Word ID Generator</h1>
+<h2>HTML Word ID Generation: Single File &amp; Batch Processing</h2>
+<div class="container">
+<div class="box box1">
+<input type="file" id="fileInput1" accept=".html"/>
+<button onclick="handleSingle()">Single File</button>
+</div>
+<div class="box box2">
+<input type="file" id="fileInput2" accept=".html" multiple/>
+<button onclick="handleMultiple()">Multiple Files</button>
+</div>
+</div>
+<div id="output"></div>
+</body>
+</html>
